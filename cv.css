@@ -1,0 +1,198 @@
+.body{
+	background-image: url(test04.jpg);
+	background-color: blue;
+}
+
+#background{
+	border: 20px solid rgb(18,70,18);
+	margin: 20px;
+	background-color:rgb(20,60,50);
+	color: black;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.imgg{
+	border-top: 4px solid gray;
+	border-left: 4px solid gray;
+	border-right: 4px solid gray;
+	border-bottom: 1px solid gray;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+
+	background-color: rgb(50,180,100);
+	color: violet;
+	padding-left: 30px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.img{
+	border:3px solid white;
+	border-radius: 200px;
+	margin-right: 1px;
+	margin-top: 5px;
+}
+
+ul {
+	border-top: 1px solid gray;
+	border-left: 4px solid gray;
+	border-right: 4px solid gray;
+	border-bottom: 4px solid gray;
+	list-style-type: none;
+    margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(20,15,10);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: blue;
+}
+.info{
+	border-top: 0.1px solid gray;
+	border-left: 4px solid gray;
+	border-right: 4px solid gray;
+	border-bottom: 1px solid gray;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 0.1px;
+    padding-left: 10px;
+    background-color: rgb(40,50,30);
+}
+
+.dat{
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: right;
+}
+.pad01{
+	padding-left: 80px;
+	font-size: 20px;
+	color:rgb(200,220,250);
+
+
+}
+.pad02{
+	font-size:20px;
+	color: rgb(100,200,100);
+
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:200px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.list{
+	font-size: 10px;
+	padding-left: 4px;
+
+}
+
+table, td, th {
+	margin-left: 100px;
+  border: 5px solid rgb(120,220,220) ;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(40,40,40);
+  color: white;
+  width: 80%;
+}
+
+th {
+  height: 50px;
+}
+
+.text{
+	background-color: lightseagreen;
+	color: rgb(250,240,255);
+	font-size: 20pxpx;
+	margin-left: 40px;
+	margin-top: 20px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 6px;
+
+}
+.text01{
+	background-color: rgb(20,30,20);
+	color: rgb(250,240,255);
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 6px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: violet;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
